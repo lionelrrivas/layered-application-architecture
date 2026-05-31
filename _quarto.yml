@@ -1,0 +1,13 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: "Layered Application Architecture"
+  site-url: "https://lionelrrivas.github.io/layered-application-architecture"
+format:
+  html:
+    theme: default
+    toc: true
+    toc-depth: 3
+    code-fold: true
+    code-tools: true

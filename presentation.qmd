@@ -1,0 +1,34 @@
+---
+Title: "Layered Application Architecture"
+subtitle: "A presentation on layered application architecture"
+author: "Lionel Rivas"
+date: "2024-06-01"
+format: 
+    revealjs:   
+        theme: black
+        slide-number: true
+        chalkboard: true
+---
+## Slide 1: Introduction
+- What is layered application architecture?
+- Benefits of using layered architecture
+- Common layers in a layered architecture
+## Slide 2: What is Layered Application Architecture?
+- A design pattern that organizes an application into distinct layers
+- Each layer has a specific responsibility and interacts with other layers in a defined way
+- Promotes separation of concerns and modularity
+## Slide 3: Benefits of Layered Architecture
+- Improved maintainability: Changes in one layer do not affect other layers
+- Enhanced testability: Each layer can be tested independently
+- Better scalability: Layers can be scaled independently based on demand
+- Increased flexibility: Layers can be replaced or modified without affecting the entire application
+## Slide 4: Common Layers in Layered Architecture
+1. Presentation Layer: Handles user interface and user interactions
+2. Business Logic Layer: Contains the core functionality and business rules
+3. Data Access Layer: Manages data storage and retrieval
+4. Service Layer: Provides an interface for communication between layers
+5. Integration Layer: Handles communication with external systems and services
+## Slide 5: Conclusion
+- Layered application architecture is a powerful design pattern that promotes separation of concerns and modularity
+- It offers numerous benefits including improved maintainability, testability, scalability, and flexibility
+- Understanding and implementing layered architecture can lead to more robust and maintainable applications
